@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../../ui/dashboard/users/users.module.css";
 import Search from "@/app/ui/dashboard/search/search";
+import Pagination from "@/app/ui/dashboard/pagination/pagination";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -9,7 +10,7 @@ function UsersPage() {
     <div className={styles.container}>
       <div className={styles.top}>
         <Search placeholder="Search for a user..." />
-        <Link href={'ww'}>
+        <Link href={'/dashboard/users/add'}>
           <button className={styles.addButton}>Add New</button>
         </Link>
       </div>
@@ -60,7 +61,7 @@ function UsersPage() {
           </tr>
         </tbody>
       </table>
-      {/* <Pagination count={count} /> */}
+      <Pagination/>
     </div>
   );
 }

@@ -1,39 +1,68 @@
 import React from 'react'
+import styles from '../../ui/dashboard/products/products.module.css'
+import Search from '@/app/ui/dashboard/search/search'
+import Pagination from '@/app/ui/dashboard/pagination/pagination'
+import Image from 'next/image'
+import Link from 'next/link'
 
 function Products() {
   return (
-    <div>
-      <table>
-        <thead>
-          <tr>
-            <td>Name</td>
-            <td>age</td>
-            <td>Class</td>
-            <td>Grade</td>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>SRINIVAS</td>
-            <td>23</td>
-            <td>12</td>
-            <td>A+</td>
-          </tr>
-          <tr>
-            <td>SRINIVAS</td>
-            <td>23</td>
-            <td>12</td>
-            <td>A+</td>
-          </tr>
-          <tr>
-            <td>SRINIVAS</td>
-            <td>23</td>
-            <td>12</td>
-            <td>A+</td>
-          </tr>
-        </tbody>
-      </table>
+    <div className={styles.container}>
+    <div className={styles.top}>
+      <Search placeholder="Search for a product..." />
+      <Link href={'/dashboard/products/add'}>
+        <button className={styles.addButton}>Add New</button>
+      </Link>
     </div>
+    <table className={styles.table}>
+      <thead>
+        <tr>
+          <td>title</td>
+          <td>description</td>
+          <td>Price</td>
+          <td>Created At</td>
+          <td>action</td>
+          <td>Action</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <div className={styles.product}>
+              <Image
+                src={"/noproduct.jpg"}
+                alt=""
+                width={40}
+                height={40}
+                className={styles.productImage}
+              />
+              username
+            </div>
+          </td>
+          <td>email</td>
+          <td>createdAt</td>
+          <td>isAdmin </td>
+          <td>isActive</td>
+          <td>
+            <div className={styles.buttons}>
+              <Link href={'kk'}>
+                <button className={`${styles.button} ${styles.view}`}>
+                  View
+                </button>
+              </Link>
+              <form>
+                <input type="hidden" name="id" />
+                <button className={`${styles.button} ${styles.delete}`}>
+                  Delete
+                </button>
+              </form>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <Pagination/>
+  </div>
   )
 }
 
