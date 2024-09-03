@@ -1,4 +1,4 @@
-import styles from '@/app/ui/dashboard/Products/addProducts/addProducts.module.css'
+import styles from '@/app/ui/dashboard/products/addProducts/addProducts.module.css'
 import {addProduct} from '@/app/lib/actions'
 const AddProducts = () => {
   return (

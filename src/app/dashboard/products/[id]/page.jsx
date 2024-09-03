@@ -1,4 +1,4 @@
-import styles from "@/app/ui/dashboard/Products/singleUser/singleUser.module.css";
+import styles from "@/app/ui/dashboard/products/singleProduct/singleProduct.module.cssr";
 import Image from "next/image";
 import { fetchProduct } from "@/app/lib/data";
 import { updateProduct } from "@/app/lib/actions";
