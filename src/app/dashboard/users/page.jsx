@@ -1,4 +1,4 @@
-import styles from "@/app/ui/dashboard/dashboard.module.css";
+import styles from "@/app/ui/dashboard/users/search.module.css";
 import Search from "@/app/ui/dashboard/search/Search";
 import Image from "next/image";
 import Link from "next/link";
