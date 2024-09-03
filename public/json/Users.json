@@ -1,0 +1,112 @@
+[
+  {
+    "username": "alice_wonder",
+    "email": "alice.wonder@example.com",
+    "password": "password123",
+    "img": "https://example.com/alice.jpg",
+    "isAdmin": false,
+    "isActive": true,
+    "phone": "555-123-4567",
+    "address": "456 Oak St, Wonderland, USA",
+    "createdAt": "2024-08-01T10:00:00Z"
+  },
+  {
+    "username": "bob_builder",
+    "email": "bob.builder@example.com",
+    "password": "buildIt!",
+    "img": "https://example.com/bob.jpg",
+    "isAdmin": true,
+    "isActive": true,
+    "phone": "555-234-5678",
+    "address": "789 Pine St, Builder City, USA",
+    "createdAt": "2024-08-02T11:30:00Z"
+  },
+  {
+    "username": "charlie_brown",
+    "email": "charlie.brown@example.com",
+    "password": "peanuts",
+    "img": "https://example.com/charlie.jpg",
+    "isAdmin": false,
+    "isActive": true,
+    "phone": "555-345-6789",
+    "address": "123 Elm St, Peanutsville, USA",
+    "createdAt": "2024-08-03T09:45:00Z"
+  },
+  {
+    "username": "diana_prince",
+    "email": "diana.prince@example.com",
+    "password": "wonderWoman",
+    "img": "https://example.com/diana.jpg",
+    "isAdmin": true,
+    "isActive": true,
+    "phone": "555-456-7890",
+    "address": "456 Maple St, Themyscira, USA",
+    "createdAt": "2024-08-04T14:20:00Z"
+  },
+  {
+    "username": "edward_snow",
+    "email": "edward.snow@example.com",
+    "password": "iceKing123",
+    "img": "https://example.com/edward.jpg",
+    "isAdmin": false,
+    "isActive": true,
+    "phone": "555-567-8901",
+    "address": "789 Snow St, Winterfell, USA",
+    "createdAt": "2024-08-05T08:15:00Z"
+  },
+  {
+    "username": "fiona_apple",
+    "email": "fiona.apple@example.com",
+    "password": "musicLover",
+    "img": "https://example.com/fiona.jpg",
+    "isAdmin": false,
+    "isActive": false,
+    "phone": "555-678-9012",
+    "address": "123 Cherry St, Songland, USA",
+    "createdAt": "2024-08-06T13:10:00Z"
+  },
+  {
+    "username": "george_clark",
+    "email": "george.clark@example.com",
+    "password": "superMan123",
+    "img": "https://example.com/george.jpg",
+    "isAdmin": true,
+    "isActive": true,
+    "phone": "555-789-0123",
+    "address": "456 Krypton St, Metropolis, USA",
+    "createdAt": "2024-08-07T16:25:00Z"
+  },
+  {
+    "username": "harley_quinn",
+    "email": "harley.quinn@example.com",
+    "password": "jokerLover",
+    "img": "https://example.com/harley.jpg",
+    "isAdmin": false,
+    "isActive": true,
+    "phone": "555-890-1234",
+    "address": "789 Gotham St, Arkham, USA",
+    "createdAt": "2024-08-08T19:00:00Z"
+  },
+  {
+    "username": "ian_malcolm",
+    "email": "ian.malcolm@example.com",
+    "password": "chaosTheory",
+    "img": "https://example.com/ian.jpg",
+    "isAdmin": false,
+    "isActive": true,
+    "phone": "555-901-2345",
+    "address": "123 Jurassic St, DinoLand, USA",
+    "createdAt": "2024-08-09T07:45:00Z"
+  },
+  {
+    "username": "jane_doe",
+    "email": "jane.doe@example.com",
+    "password": "unknown123",
+    "img": "https://example.com/jane.jpg",
+    "isAdmin": false,
+    "isActive": true,
+    "phone": "555-012-3456",
+    "address": "456 Mystery St, Anytown, USA",
+    "createdAt": "2024-08-10T22:30:00Z"
+  }
+]

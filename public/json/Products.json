@@ -1,0 +1,103 @@
+[
+    {
+      "title": "Blue T-Shirt",
+      "desc": "A comfortable blue cotton t-shirt.",
+      "price": 19.99,
+      "stock": 100,
+      "img": "https://example.com/blue-tshirt.jpg",
+      "color": "Blue",
+      "size": "M",
+      "createdAt": "2024-08-01T10:00:00Z"
+    },
+    {
+      "title": "Red Sneakers",
+      "desc": "Stylish red sneakers for everyday wear.",
+      "price": 49.99,
+      "stock": 50,
+      "img": "https://example.com/red-sneakers.jpg",
+      "color": "Red",
+      "size": "10",
+      "createdAt": "2024-08-02T11:30:00Z"
+    },
+    {
+      "title": "Leather Wallet",
+      "desc": "A sleek leather wallet with multiple compartments.",
+      "price": 29.99,
+      "stock": 75,
+      "img": "https://example.com/leather-wallet.jpg",
+      "color": "Brown",
+      "size": "One Size",
+      "createdAt": "2024-08-03T09:45:00Z"
+    },
+    {
+      "title": "Silver Watch",
+      "desc": "A luxury silver watch with a minimalist design.",
+      "price": 199.99,
+      "stock": 30,
+      "img": "https://example.com/silver-watch.jpg",
+      "color": "Silver",
+      "size": "One Size",
+      "createdAt": "2024-08-04T14:20:00Z"
+    },
+    {
+      "title": "Black Jeans",
+      "desc": "Slim fit black jeans made from high-quality denim.",
+      "price": 39.99,
+      "stock": 60,
+      "img": "https://example.com/black-jeans.jpg",
+      "color": "Black",
+      "size": "32",
+      "createdAt": "2024-08-05T08:15:00Z"
+    },
+    {
+      "title": "White Hoodie",
+      "desc": "A cozy white hoodie with a front pocket.",
+      "price": 34.99,
+      "stock": 40,
+      "img": "https://example.com/white-hoodie.jpg",
+      "color": "White",
+      "size": "L",
+      "createdAt": "2024-08-06T13:10:00Z"
+    },
+    {
+      "title": "Gold Necklace",
+      "desc": "A delicate gold necklace with a pendant.",
+      "price": 149.99,
+      "stock": 25,
+      "img": "https://example.com/gold-necklace.jpg",
+      "color": "Gold",
+      "size": "One Size",
+      "createdAt": "2024-08-07T16:25:00Z"
+    },
+    {
+      "title": "Running Shoes",
+      "desc": "Lightweight running shoes for daily training.",
+      "price": 89.99,
+      "stock": 55,
+      "img": "https://example.com/running-shoes.jpg",
+      "color": "Gray",
+      "size": "9",
+      "createdAt": "2024-08-08T19:00:00Z"
+    },
+    {
+      "title": "Denim Jacket",
+      "desc": "A classic denim jacket with a modern fit.",
+      "price": 59.99,
+      "stock": 35,
+      "img": "https://example.com/denim-jacket.jpg",
+      "color": "Blue",
+      "size": "M",
+      "createdAt": "2024-08-09T07:45:00Z"
+    },
+    {
+      "title": "Wool Scarf",
+      "desc": "A warm wool scarf for chilly weather.",
+      "price": 24.99,
+      "stock": 80,
+      "img": "https://example.com/wool-scarf.jpg",
+      "color": "Gray",
+      "size": "One Size",
+      "createdAt": "2024-08-10T22:30:00Z"
+    }
+  ]
+  
